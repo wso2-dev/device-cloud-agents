@@ -1,0 +1,29 @@
+# Ignore everything in this directory
+target
+build
+gradle
+.classpath
+.settings
+.project
+.gradle
+.idea
+*.iml
+*.iws
+*.ipr
+*.ids
+local.properties
+*.class
+
+# Mac crap
+.DS_Store
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
