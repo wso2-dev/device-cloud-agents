@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "org.wso2.carbon.iot.android.sense.ActivitySelectSensor"/>
+      <point      
+        x = "604"      
+        y = "200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "org.wso2.carbon.iot.android.sense.register.RegisterActivity"/>
+      <point      
+        x = "2520"      
+        y = "712"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "org.wso2.carbon.iot.android.sense.register.SenseDeEnroll"/>
+      <point      
+        x = "600"      
+        y = "200"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

@@ -19,8 +19,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import java.util.Calendar;
-
 
 public class DataUploaderReceiver extends BroadcastReceiver {
 
