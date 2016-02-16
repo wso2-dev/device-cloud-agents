@@ -23,7 +23,7 @@ import android.content.Intent;
  * This creates and AlarmManagerService that triggers the data uploader service with a 30 seconds interval.
  */
 public class DataPublisherReceiver extends BroadcastReceiver {
-    private static int ALARM_INTERVAL = 30000;
+    private static int ALARM_INTERVAL = 10;
 
     @Override
     public void onReceive(Context context, Intent intent) {
