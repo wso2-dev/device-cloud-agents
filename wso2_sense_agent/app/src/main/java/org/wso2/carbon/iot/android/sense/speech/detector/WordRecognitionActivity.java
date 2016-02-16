@@ -35,6 +35,8 @@ public class WordRecognitionActivity extends ListeningActivity {
         setContentView(R.layout.activity_speech_sense_main);
         context = getApplicationContext(); // Needs to be set
 
+        ProcessWords.clearWordsMap();
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         VoiceRecognitionListener.getInstance().setListener(this); // Here we set the current listener
         addListenerOnSetThreasholdButton();

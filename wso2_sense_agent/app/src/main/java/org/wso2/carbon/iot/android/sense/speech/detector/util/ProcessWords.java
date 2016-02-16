@@ -190,4 +190,13 @@ public class ProcessWords extends AsyncTask<String, Void, String> {
     }
 
 
+    /**
+     * Clears the word data map.
+     * This method is called when the activity started for a new session id.
+     */
+    public static void clearWordsMap(){
+        wordDataMap.clear();
+    }
+
+
 }
